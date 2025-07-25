@@ -28,6 +28,6 @@ describe('Sign In page', () => {
 
     cy.get('.button').click();
 
-    cy.asserSuccessfulLogOut();
+    cy.assertSuccessfulLogOut();
   });
 });

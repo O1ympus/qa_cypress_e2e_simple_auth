@@ -34,7 +34,7 @@ Cypress.Commands.add('assertUnsuccessfulLogin', () => {
     .should('contain.text', 'Your username is invalid!');
 });
 
-Cypress.Commands.add('asserSuccessfulLogOut', () => {
+Cypress.Commands.add('assertSuccessfulLogOut', () => {
   cy.get('#flash')
     .should('contain.text', 'You logged out of the secure area!');
 });
